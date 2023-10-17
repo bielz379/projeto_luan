@@ -2,10 +2,10 @@ body{
     background: #dfbd92;
 }
 #tabela{
-    margin-left: 34%;
-    margin-right: 34%;
+    margin: 0 auto;
     right:24%;
     font-size: 23px;
+    max-width: 460px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: #5a5a5a;
     border: 3px solid black;
