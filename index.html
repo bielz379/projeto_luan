@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="pasta mine">
+    <title>Converção de moedas</title>
+</head>
+<body>
+    <fieldset id="tabela">
+        <h1> conversor de moedas</h1>
+
+        <div class="conve-moed">
+            
+            <label for="real">Real</label>
+            <input type="text" id="real" name="real" placeholder="R$"> 
+
+            <label for="dolar">Dólar</label>
+            <input type="text" id="dolar" name="dolar" placeholder="US$">
+
+            <label for="euro">Euro</label> 
+            <input type="text" id="euro" name="euro" placeholder="€">
+
+        </div>
+        
+        <button onclick="calcular()" class="butt"> converter</button>
+        
+        <button onclick="limpar()" class="butt2"> limpar</button>
+
+    </fieldset> 
+    <script src="js/script.js"></script>
+</body>
+</html>
